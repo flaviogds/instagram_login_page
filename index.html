@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./src/main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="banner">
+                <div class="screen-phone"></div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div id="content" class="group">
+                <span class="title"></span>
+                <button class="avatar">
+                    <img src="./img/avatar.jpg" alt="avatar">
+                </button>
+                <button class="continue">Continuar como Hobbes</button>
+                <p class="account">
+                    Não é Hobbes?
+                    <button onclick="page_request('./user.html','content')">Trocar de conta</button>
+                </p>
+            </div>
+
+            <div class="group">
+                <p class="account">
+                    Não tem uma conta?
+                    <a href="#">Cadastre-se</a>
+                </p>
+            </div>
+
+            <div class="group">
+                <p>Obtenha o aplicativo.</p>
+                <div>
+                    <a href="">
+                        <img src="./img/apple-store-logo.png" alt="" class="store">
+                    </a>
+                    <a href="">
+                        <img src="./img/google-play-logo.png" alt="" class="store">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-bar">
+            <a href="">Sobre</a>
+            <a href="">Blog</a>
+            <a href="">Carreiras</a>
+            <a href="">Ajuda</a>
+            <a href="">API</a>
+            <a href="">Privacidade</a>
+            <a href="">Termos</a>
+            <a href="">Contas mais relevantes</a>
+            <a href="">Hashtags</a>
+            <a href="">Localizações</a>
+        </div>
+        <div>
+            <select class="language">
+                <option value="">Português (Brasil)</option>
+                <option value="">Inlgês (Estados Unidos)</option>
+                <option value="">Espanhol (Espanha)</option>
+                <option value="">Outro</option>
+            </select>
+            <span class="copyright">© 2020 Instagram do Facebook</span>
+        </div>
+    </footer>
+</body>
+</html>
